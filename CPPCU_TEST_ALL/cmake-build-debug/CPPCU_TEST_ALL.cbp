@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPPCU_TEST_ALL"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPPCU_TEST_ALL">
+				<Option output="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/CPPCU_TEST_ALL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.2/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPCU_TEST_ALL"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPPCU_TEST_ALL/fast">
+				<Option output="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/CPPCU_TEST_ALL" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.2/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPCU_TEST_ALL/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/All.h">
+			<Option target="CPPCU_TEST_ALL"/>
+		</Unit>
+		<Unit filename="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/include/0_CU/cu2_addSum.cuh">
+			<Option target="CPPCU_TEST_ALL"/>
+		</Unit>
+		<Unit filename="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/include/0_CU/cu3_calcTime.cuh">
+			<Option target="CPPCU_TEST_ALL"/>
+		</Unit>
+		<Unit filename="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/include/baseTOOL.h">
+			<Option target="CPPCU_TEST_ALL"/>
+		</Unit>
+		<Unit filename="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/main.cpp">
+			<Option target="CPPCU_TEST_ALL"/>
+		</Unit>
+		<Unit filename="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/src/0_CU/cu1_init.cu">
+			<Option target="CPPCU_TEST_ALL"/>
+		</Unit>
+		<Unit filename="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/src/0_CU/cu2_addSum.cu">
+			<Option target="CPPCU_TEST_ALL"/>
+		</Unit>
+		<Unit filename="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/src/0_CU/cu3_calcTime.cu">
+			<Option target="CPPCU_TEST_ALL"/>
+		</Unit>
+		<Unit filename="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/src/baseTOOL.cpp">
+			<Option target="CPPCU_TEST_ALL"/>
+		</Unit>
+		<Unit filename="/home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

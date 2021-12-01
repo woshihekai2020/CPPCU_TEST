@@ -1,0 +1,4 @@
+/home/hk001/Tool/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CUDA_COMPILER:PATH=/usr/local/cuda/bin/nvcc -G "CodeBlocks - Unix Makefiles" /home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hk001/CLionProjects/CPP/CPPCU_TEST_ALL/cmake-build-debug

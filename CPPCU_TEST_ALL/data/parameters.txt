@@ -1,0 +1,64 @@
+excuteStr=3
+         #1 : initcuda
+         #2 : addSum
+         #3 : calcTime
+
+         #2 : p2_toCloud
+         #3 : p3_detect          #31: eigen     32:Isometry        33:pangolin
+         #4 : p4_registrate      #41: se3so3    42:trajectoryError
+         #5 : p5_vo              #51: undistort 52:joinCloud       53:stereo
+         #6 : p6_g2o             #61: hand-GN   62:ceres_GN        63:g2o_GN
+         #7 : p7_loop            #77: featureVO
+         #8 : p8_other           #88: optical
+                                 #99: BA
+                                 #10: optiPosture
+                                 #11: loop
+                                 #12: map
+#8:weihengxia :#https://github.com/WeihengXia0123/RGBD-SLAM-tutorial
+
+detector=SIFT
+descriptor=SIFT
+good_match_threshold=10  #SIFT < 4 : ORB > 10
+
+camera.cx=325.5; #GX.Knectic V2
+camera.cy=253.5;
+camera.fx=518.0;
+camera.fy=519.0;
+camera.scale=10.0;
+
+
+####ch2-ch4
+rgb_1_filepath=/home/hk/CLionProjects/CPP_SLAM/data/1_RGBD/GX/rgb1.png
+rgb_2_filepath=/home/hk/CLionProjects/CPP_SLAM/data/1_RGBD/GX/rgb2.png
+depth_1_filepath=/home/hk/CLionProjects/CPP_SLAM/data/1_RGBD/GX/depth1.png
+depth_2_filepath=/home/hk/CLionProjects/CPP_SLAM/data/1_RGBD/GX/depth2.png
+
+
+####ch5 vo
+start_index=1
+end_index=780
+
+rgb_dir=/home/hk/CLionProjects/CPP_SLAM/data/1_RGBD/GX/rgb_png/
+rgb_extension=.png
+depth_dir=/home/hk/CLionProjects/CPP_SLAM/data/1_RGBD/GX/depth_png/
+depth_extension=.png
+
+voxel_grid=0.01
+
+visualize_pointcloud=yes
+
+min_good_match=10
+
+min_inliers=5
+
+max_norm=0.3
+
+
+
+####part 7
+keyframe_threshold=0.1
+max_norm_lp=2.0
+#loop closure
+check_loop_closure=yes
+nearby_loops=5
+random_loops=5
